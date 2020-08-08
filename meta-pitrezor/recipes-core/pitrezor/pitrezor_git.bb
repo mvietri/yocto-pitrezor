@@ -8,12 +8,12 @@ RDEPENDS_${PN} = "rng-tools dos2unix"
 
 inherit pkgconfig python3native
 
-SRC_URI = "git://github.com/heneault/trezor-firmware.git;branch=pitrezor \
+SRC_URI = "git://github.com/mvietri/trezor-firmware.git;branch=pitrezor \
            file://start_pitrezor \
            file://pitrezor.config \
           "
 
-SRCREV = "7636494239db486b9d13e7cbd98cd9a30f96a70c"
+SRCREV = "689f504edb5e08affe1ec85078faaf928be72efc"
 
 S = "${WORKDIR}/git"
 
