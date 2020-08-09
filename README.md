@@ -1,4 +1,4 @@
-![tag](https://img.shields.io/github/v/tag/mvietri/yocto-pitrezor) ![status](https://img.shields.io/badge/status-not%20tested-red)
+![build](https://img.shields.io/badge/build-passing-brightgreen) ![status](https://img.shields.io/badge/status-tested-brightgreen) ![tag](https://img.shields.io/github/v/tag/mvietri/yocto-pitrezor) 
 
 # yocto-pitrezor
 OS linux platform for the pitrezor project (usign yocto)
