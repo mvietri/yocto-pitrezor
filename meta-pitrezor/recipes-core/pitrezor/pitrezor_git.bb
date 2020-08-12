@@ -3,7 +3,7 @@ SUMMARY = "Pitrezor application"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://legacy/COPYING;md5=e6a600fd5e1d9cbde2d983680233ad02"
 
-DEPENDS = "libsdl2 bcm2835 protobuf-native python3-protobuf-native python3-six-native python3-click-native python3-trezor-native dos2unix-native python3-mako-native python3-munch-native libconfig"
+DEPENDS = "libsdl2 libsdl2-image bcm2835 protobuf-native python3-protobuf-native python3-six-native python3-click-native python3-trezor-native dos2unix-native python3-mako-native python3-munch-native libconfig"
 RDEPENDS_${PN} = "rng-tools dos2unix"
 
 inherit pkgconfig python3native
@@ -13,7 +13,7 @@ SRC_URI = "git://github.com/mvietri/trezor-firmware.git;branch=pitrezor \
            file://pitrezor.config \
           "
 
-SRCREV = "689f504edb5e08affe1ec85078faaf928be72efc"
+SRCREV = "3f1c8ef19a8be8706c2ab1dd49dc0977398ff17e"
 
 S = "${WORKDIR}/git"
 
