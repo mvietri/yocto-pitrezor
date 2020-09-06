@@ -21,6 +21,7 @@ do_configure() {
 }
 
 do_compile() {
+  export BITCOIN_ONLY=1
   export EMULATOR=1
   export PIZERO=1
   export CPUFLAGS=""
