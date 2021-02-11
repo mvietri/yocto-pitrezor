@@ -1,4 +1,4 @@
-![build](https://img.shields.io/badge/build-failing-red) ![status](https://img.shields.io/badge/status-not%20tested-red) ![tag](https://img.shields.io/badge/tag-1.9.4.0-blueviolet) ![tag](https://img.shields.io/badge/tag-1.9.4.0--btc-yellow)
+![build](https://img.shields.io/badge/build-passing-greenlight) ![status](https://img.shields.io/badge/status-tested-blue) ![tag](https://img.shields.io/badge/tag-1.9.4.0-blueviolet) ![tag](https://img.shields.io/badge/tag-1.9.4.0--btc-yellow)
 
 # yocto-pitrezor
 OS linux platform for the pitrezor project (usign yocto)
@@ -17,11 +17,12 @@ This creates file `build/pitrezor-TAG.zip`.
 ## Builds
 
 Get latest and previous builds.
+
 See [Github releases](https://github.com/mvietri/yocto-pitrezor/releases) page for more information.
 
 ## Donate
 
 Donate [Heneault](https://github.com/heneault) for his amazing work. More info at [pitrezor](http://www.pitrezor.com) page. 
 
-I also will provide pi0 image as soon as a new firmware is available. [My bitcoin address](https://www.blockchain.com/btc/address/3Kfg5WP6uSWoxyDDkmGeY2V9qtT44F9TuC).
+I also will provide pi0 image as soon as a new firmware is available. [My bitcoin address](https://www.blockchain.com/btc/address/bc1qmt8fnyjq96a79nvjjjphpq75933nj0mkrhxj93).
 
